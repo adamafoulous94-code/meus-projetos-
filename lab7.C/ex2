@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    char str[20] = "";
+    char amf[20] = "";
+    printf("escreva (Estou a aprender C): ");
+    scanf("%s", str);
+    printf("String 1: %s\n", str);
+    
+    printf("escreva (Estou a aprender C): ");
+    fgets(amf, sizeof(amf), stdin); // Using fgets to read a string with spaces
+    printf("String 2: %s\n", amf);
+    return 0;
+}

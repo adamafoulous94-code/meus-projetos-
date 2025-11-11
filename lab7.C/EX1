@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    char str[] = "Hoje estou a aprender a utilizar strings em C!";
+    printf("%s\n", str);
+    return 0;
+}
